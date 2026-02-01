@@ -1,0 +1,57 @@
+
+import { Translation, Language } from './types';
+
+export const translations: Record<Language, Translation> = {
+  en: {
+    login: 'Log In',
+    signup: 'Sign Up',
+    email: 'Email Address',
+    password: 'Password',
+    welcome: 'Welcome to FloodGuard AI',
+    dashboard: 'Flood Risk Dashboard',
+    searchPlaceholder: 'Search city (e.g., Mumbai, Delhi, London)...',
+    riskLevel: 'Flood Risk Level',
+    forecastTitle: '7-Day Forecast',
+    aiAnalysis: 'AI Risk Insight',
+    logout: 'Logout',
+    changeLang: 'हिंदी',
+    floodRisk_Low: 'Low Risk',
+    floodRisk_Moderate: 'Moderate Risk',
+    floodRisk_High: 'High Risk',
+    floodRisk_Critical: 'Critical Risk',
+    noData: 'Search a city to view risk data',
+    condition_Sunny: 'Sunny',
+    condition_PartlyCloudy: 'Partly Cloudy',
+    condition_Cloudy: 'Cloudy',
+    condition_Rainy: 'Rainy',
+    condition_Stormy: 'Stormy',
+    theme_Light: 'Light Mode',
+    theme_Dark: 'Dark Mode'
+  },
+  hi: {
+    login: 'लॉग इन करें',
+    signup: 'साइन अप करें',
+    email: 'ईमेल पता',
+    password: 'पासवर्ड',
+    welcome: 'FloodGuard AI में आपका स्वागत है',
+    dashboard: 'बाढ़ जोखिम डैशबोर्ड',
+    searchPlaceholder: 'शहर खोजें (जैसे, मुंबई, दिल्ली, लंदन)...',
+    riskLevel: 'बाढ़ जोखिम स्तर',
+    forecastTitle: '7-दिन का पूर्वानुमान',
+    aiAnalysis: 'AI जोखिम अंतर्दृष्टि',
+    logout: 'लॉग आउट',
+    changeLang: 'English',
+    floodRisk_Low: 'कम जोखिम',
+    floodRisk_Moderate: 'मध्यम जोखिम',
+    floodRisk_High: 'उच्च जोखिम',
+    floodRisk_Critical: 'गंभीर जोखिम',
+    noData: 'जोखिम डेटा देखने के लिए शहर खोजें',
+    condition_Sunny: 'धूप',
+    condition_PartlyCloudy: 'आंशिक रूप से बादल',
+    condition_Cloudy: 'बादल छाए रहेंगे',
+    condition_Rainy: 'बारिश',
+    condition_Stormy: 'तूफानी',
+    theme_Light: 'लाइट मोड',
+    theme_Dark: 'डार्क मोड'
+  }
+};

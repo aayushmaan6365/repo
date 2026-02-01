@@ -1,0 +1,7 @@
+{
+  "name": "FloodGuard AI",
+  "description": "A sophisticated bilingual flood monitoring and risk assessment dashboard inspired by FloodMapp, featuring real-time weather forecasting and AI-driven flood analysis.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
